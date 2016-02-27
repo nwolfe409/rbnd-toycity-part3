@@ -1,17 +1,31 @@
 # lib/product.rb
 
 class Product
-  attr_reader :title
+  attr_reader :title, :stock, :price
 
   @@products = []
 
   def initialize(options={})
     @title = options[:title]
+    @stock = options[:stock]
+    @price = options[:price]
     add_to_products
   end
 
   def self.all
     @@products
+  end
+  
+  def in_stock? #checks if the item is in stock
+    @stock > 0
+  end
+  
+  def self.in_stock #returns an array of instock items
+    @@products.select { |product| product.in_stock? }
+  end
+  
+  def self.find_by_title(title) #returns produce by title
+   @@products.find { |product| product.title == title }
   end
 
   private
@@ -22,4 +36,6 @@ class Product
     end
     @@products << self
   end
+  
+  
 end
