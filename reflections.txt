@@ -1,0 +1,14 @@
+#How long did you spend working on this project?
+
+Spent around 4 hours working on this
+
+#What was the most rewarding challenge you conquered?
+
+The most rewarding challenge was getting the program working and decreasing the stock count correctly
+
+#What two additional features did you build? Why?
+
+
+#Where do you still have room to grow?
+
+Still working on getting used to calling methods from different classes using correct names witout trying multiple times to get it right. 

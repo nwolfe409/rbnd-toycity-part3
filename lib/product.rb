@@ -27,6 +27,10 @@ class Product
   def self.find_by_title(title) #returns produce by title
    @@products.find { |product| product.title == title }
   end
+  
+  def decrease_stock
+    @stock -= 1
+  end
 
   private
 
@@ -36,6 +40,8 @@ class Product
     end
     @@products << self
   end
+  
+  
   
   
 end
