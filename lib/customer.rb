@@ -13,27 +13,21 @@ class Customer
   def self.all
     @@customers
   end
-  
-  
-  
-  
-  
+ 
   def self.find_by_name(name) #returns customer by name
-   @@customers.find { |customer| customer.name == name }
+   all.find { |customer| customer.name == name }
   end
   
   def purchase(item)
     Transaction.new self, item
-  
   end
   
   def self.print_customers
     puts "*" * 25
     puts "Customers"
     puts "-" * 25
-    @@customers.each do |customer|
+    all.each do |customer|
       puts "#{customer.name}"
-      
     end
     puts "*" * 25
   end
@@ -46,7 +40,5 @@ class Customer
     end
     @@customers << self
   end
-  
-  
-  
+
 end

@@ -21,11 +21,11 @@ class Product
   end
   
   def self.in_stock #returns an array of instock items
-    @@products.select { |product| product.in_stock? }
+    all.select { |product| product.in_stock? }
   end
   
   def self.find_by_title(title) #returns produce by title
-   @@products.find { |product| product.title == title }
+   all.find { |product| product.title == title }
   end
   
   def decrease_stock
@@ -40,8 +40,5 @@ class Product
     end
     @@products << self
   end
-  
-  
-  
-  
+
 end

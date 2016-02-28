@@ -7,6 +7,8 @@ Spent around 4 hours working on this
 The most rewarding challenge was getting the program working and decreasing the stock count correctly
 
 #What two additional features did you build? Why?
+1. added option to print total sales - I felt that this would be helpful in getting a quick overview of how the company to doing.
+2. added option to print customer list. With this we can see the customer that have ordered
 
 
 #Where do you still have room to grow?
