@@ -1,0 +1,71 @@
+commit 06213bba068d316be25678977a34b847422e3599
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sun Feb 28 22:29:45 2016 +0000
+
+    Cleaned up code for submission
+
+commit 37b2cee9d3b57ad083bd5eefaa63ffb62dd57e43
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sun Feb 28 22:12:36 2016 +0000
+
+    Working base code that meets project requirements
+
+commit 148d4749836efcbf67b9e3c6dbc592d1c6ac40ce
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sat Feb 27 19:00:53 2016 +0000
+
+    Working base code for Customers section of app.rb
+
+commit 33d3844f5ae516919d46ac339b00f658ec10b2e6
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sat Feb 27 18:44:22 2016 +0000
+
+    finished working code for Products section in app.rb
+
+commit fcc6077b385abe5302eb5dd43fd0f432785566e0
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sat Feb 27 04:31:52 2016 +0000
+
+    Updated produt.rb to prevent adding duplicate items
+
+commit b1580a6be5dcd869dfa24b02cc2e6c8a1357e59b
+Author: Nathan Wolfe <nwolfe409@gmail.com>
+Date:   Sat Feb 27 03:58:08 2016 +0000
+
+    Add ability to create and count products
+
+commit 14c21e10423a3f57bf17931b8ccdd803e240d5d1
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Tue Jan 12 01:23:47 2016 -0800
+
+    Output return values to the command line
+
+commit 50ecd4c9f92a4a76d414cb22a39a25c34e902525
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Fri Jan 8 12:02:31 2016 -0800
+
+    Removed zip file requirement
+
+commit f500dd1d9d903c1b9d49b3c9665f6a011616c546
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Thu Jan 7 09:04:43 2016 -0800
+
+    Fixed typo
+
+commit 1557be82014b78b0773f8f7bc129712e3a324286
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Wed Jan 6 02:17:14 2016 -0500
+
+    Fix typos
+
+commit ec4113db8edbd9c69e15dc85b21875c3472ca3fa
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:12:59 2016 -0500
+
+    Add LICENSE
+
+commit 1e66c23ba283ea433767f58d9a9e796282046d5c
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:09:18 2016 -0500
+
+    Initial commit
